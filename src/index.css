@@ -1,0 +1,12 @@
+body {
+  background-color: #ececf1;
+  opacity: 1;
+  background-size: 20px 20px;
+  background-image: repeating-linear-gradient(
+    0deg,
+    #e1e1e8,
+    #e1e1e8 1px,
+    #ececf1 1px,
+    #ececf1
+  );
+}
