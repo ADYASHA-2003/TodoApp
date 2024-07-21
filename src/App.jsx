@@ -1,5 +1,4 @@
 import { useEffect, useState } from "react";
-import "./App.css";
 import TodoInput from "./components/TodoInput";
 import TodoLists from "./components/TodoLists";
 import "bootstrap/dist/css/bootstrap.min.css";

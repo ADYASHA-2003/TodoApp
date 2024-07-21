@@ -43,7 +43,7 @@ const TodoLists = ({ tasks, setTasks}) => {
   return (
     <div className="d-flex flex-column align-items-center pt-5">
       {tasks.length > 0 && ( 
-        <div className="mb-3 mx-2" style={{alignSelf:'flex-start'}}>
+        <div className="mb-3 mx-4" style={{alignSelf:'flex-start'}}>
           <TodoSearchBar searchTodo={searchTodo} setSearchTodo={setSearchTodo}/>
         </div>
       )}
