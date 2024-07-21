@@ -40,6 +40,10 @@ const TodoLists = ({ tasks, setTasks}) => {
 
   const statuses = ["todo", "ongoing", "completed"];
 
+  if (!tasks) {
+    return <div>Loading...</div>;
+  }
+
   return (
     <div className="d-flex flex-column align-items-center pt-5">
       {tasks.length > 0 && ( 

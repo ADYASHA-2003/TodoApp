@@ -15,7 +15,8 @@ function App() {
 
   useEffect(() => {
     //deserialising - get original Object format from String stored type
-    setTasks(JSON.parse(localStorage.getItem("tasks")));
+    const storedTasks = JSON.parse(localStorage.getItem("tasks")) || [];
+    setTasks(storedTasks);
   }, []);
 
   return (
