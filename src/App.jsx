@@ -11,7 +11,7 @@ import {HTML5Backend} from 'react-dnd-html5-backend'
 function App() {
   const [tasks, setTasks] = useState([]);
 
-  console.log("Tasks:", tasks);
+  // console.log("Tasks:", tasks);
 
   useEffect(() => {
     //deserialising - get original Object format from String stored type
