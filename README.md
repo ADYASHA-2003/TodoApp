@@ -6,3 +6,5 @@
 
 #### Launch Complete Project
 ##### npm run dev
+
+#### Deployed Live @ https://dnd-taskmanager.netlify.app/
